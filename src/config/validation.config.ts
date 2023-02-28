@@ -1,5 +1,5 @@
-import { ValidatorOptions } from 'class-validator'
-import { HttpStatus } from '@nestjs/common'
+import { ValidatorOptions } from 'class-validator';
+import { HttpStatus } from '@nestjs/common';
 
 export const ValidationConfig: ValidatorOptions | Record<string, any> = {
   whitelist: true,
@@ -7,4 +7,4 @@ export const ValidationConfig: ValidatorOptions | Record<string, any> = {
   forbidNonWhitelisted: true,
   disableErrorMessages: false,
   skipMissingProperties: false,
-}
+};
